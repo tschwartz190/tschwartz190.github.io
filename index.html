@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Profile </title>
+<style>
+/* Text Settings */
+body{}
+h1{
+	color: black;
+	font-family: Verdana, Geneva, sans-serif;
+}
+h2{
+	color: black;
+	font-family: Verdana, Geneva, sans-serif;
+}
+h3{
+	color: black;
+	font-family: Verdana, Geneva, sans-serif;
+}
+h4{
+	color: black;
+	font-family: Verdana, Geneva, sans-serif;
+}
+p{
+	color: black;
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 150%;
+}
+figcaption{
+	color: black;
+	font-family: Verdana, Geneva, sans-serif;
+}
+p.intro{
+	width: 50%;
+	
+}
+p.caption{
+	color: black;
+	text-align: right;
+	font-family: Verdana, Geneva, sans-serif;
+}
+p.lastUpdate{
+	font-size: 12px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+/* Accordion Buttons */
+button.accordion {
+	background-color: #458EE0;
+	font-size: 16px;
+	color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 75%;
+    text-align: center;
+    border: none;
+    outline: #091018 solid thin;
+    transition: 0.4s;
+	font-weight: bold;
+}
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+div.panel {
+    padding: 0 18px;
+    background-color: #A8AAAD;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+div.panel.show {
+    opacity: 1;
+    max-height: 2000px;
+}
+button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+</style>
+</head>
+
+<body background="Images/Tech_Back.jpg">
+
+<h1> Welcome </h1>
+
+<div style="float:right">
+<figure>
+	<img src="Images/The Lions.jpg" style="width:304px;height:420px">
+	<figcaption style="font-size:14px;align:center"> A bit chilly while summiting <a href="https://en.wikipedia.org/wiki/The_Lions_(peaks)" target="_blank">the Lions</a></figcaption>
+</figure>
+</div>
+
+<p class="intro"> I believe that I was meant to be an explorer. Were I alive 500 years ago, I would have volunteered on an expedition to discover the New World.
+A century ago, I would have trekked with the great polar expeditions across the ice caps.</p>
+
+<p class="intro"> Modern exploration takes the form of science and technology. How can we learn more about ourselves, our planet, our universe? And in what ways can we use the 
+laws of physics to our advantage? Studying Engineering Physics at the University of British Columbia, every day I expand my horizons, learning more about the physical laws 
+of our universe and how we can use technology to enhance human capabilities. </p>
+
+<p class="intro"> I've learned a lot during my studies and while working in both physics research and the engineering industry. I hope to continue to gain experience during my 
+degree through the <a href="http://www.sciencecoop.ubc.ca/" target="_blank">UBC Co-op program</a> and find the field I will work in during my career.
+</p>
+
+<p> Check out my <a href="Text Files/Tal_Schwartz_Resume.pdf" download>resume</a> to get an idea about my skillset. Or, feel free to reach out to me by email:
+<br>
+	<i>senstschwartz@gmail.com</i>
+</p>
+<br>
+<br>
+
+<button class="accordion">My Workplaces</button>
+<div class="panel">
+	<h2> Max Planck Institute for the Structure and Dynamics of Matter (MPSD)</h2> 
+	<h4> <i> Hamburg, Germany. Spring 2016 </i> </h4>
+	
+	<div style="float:right">
+		<figure>
+			<img src="Images/Ion Lens.jpg" style="width:304px;height:200px">
+			<figcaption style="font-size:14px;align:center"> An <a href="https://en.wikipedia.org/wiki/Electrostatic_lens" target="_blank">ion lens</a> I designed while at MPSD</figcaption>
+		</figure>
+	</div>
+	
+	<p>I spent the spring semester of 2016 as part of the Miller Group at the <a href="http://www.mpsd.mpg.de/en" target="_blank">Max Planck Institute for the Structure and Dynamics of Matter (MPSD)</a>.
+	Working as a support engineering intern at one of the world's foremost research institutions, I designed, built and installed optical and mechanical systems that contribute 
+	to ultrafast infrared laser experiments. My main project was the design, construction, and installation of a <a href="https://www.rp-photonics.com/frequency_resolved_optical_gating.html" target="_blank">
+	frequency-resolved optical gating</a> (FROG) device for near-infrared wavelength lasers.
+	</p>
+	
+	<p>
+	Apart from learning mechanical, electrical, and optical design principles, working at MPSD allowed me to get a feel for how work at a research institution differs from industry work. 
+	My co-workers, nearly all holding doctorates or pursuing them, were willing to share their extensive knowledge of physics and engineering with me, and I learned a lot. For example, 
+	did you know that the German word for threaded screws is "Zylinderschrauben"?
+	</p>
+	
+	<h2> IBM </h2>
+	<h4> <i> Poughkeepsie, NY. Summer 2015 </i> </h4>
+	
+	<div style="float:right">
+		<figure>
+			<img src="Images/And Gate.jpg" style="width:404px;height:275px">
+			<figcaption style="font-size:14px;align:center">A circuit I built at MPSD to synchronize laser output</figcaption>
+		</figure>
+	</div>
+	
+	<p>
+		After my first year of university I spent the summer working in the Input/Output Drawer Hardware Design department of <a href="http://www-03.ibm.com/systems/z/" target="_blank">Z Systems</a> 
+		at IBM Poughkeepsie. During my tenure, I was responsible for the implementation of a database search tool that is still in use in the department. As the only software worker in 
+		a team of hardware engineers, I learned the valuable skill of initiative, since there was no one to ask for help.
+	</p>
+	
+	<p>
+		Working at the world's leading mainframe designer and completely controlling my own project was exhilarating. I set up and ran meetings with other employees, regularly briefed my 
+		superiors, and taught myself 3 programming languages. At IBM, I learned the ins and outs of navigating a massive company, and making my own unique contribution.
+	</p>
+	
+	<h2> Teaching Assistant </h2>
+	<h4> <i> University of British Columbia. Fall 2016 </i></h4>
+	
+	<p>
+		After excelling in the Principles of Software Construction course (CPEN 221), I was offered a TA position for the Fall 2016 semester. Holding office hours, proctoring exams, and 
+		grading is hardly glamorous work, but I enjoy seeing a class from the teachers' side. It's very rewarding to help students understand a difficult topic, or to grade an assignment 
+		where the student really knocked it out of the park. And since working in academia is a career option that I may want to explore, what better way test it out?
+	</p>
+</div>
+
+</button>
+
+<br>
+
+<button class="accordion"> Other Experience </button>
+<div class="panel">
+	<h2> Volunteering in the Jones Lab </h2>
+	<h4> <i> University of British Columbia. Fall 2016 </i> </h4>
+	<p>
+		Since returning to UBC after my work at <a href="http://www.mpsd.mpg.de/en" target="_blank">MPSD</a>, I have been volunteering in Professor David Jones' 
+		<a href="http://www.phas.ubc.ca/~djjones/" target="_blank">research lab</a> for several hours each week. Much of his work involves optics, similar to my work at MPSD. I perform engineering support tasks for his and his graduate 
+		students' experiments, specifically circuitry design and construction.
+	</p>
+	
+	<div style="float:right">
+		<figure>
+			<img src="Images/TANK.jpg" style="width:325px;height:250px">
+			<figcaption style="font-size:14px;align:center">Our robot, nicknamed the <b>T.A.N.K.</b></figcaption>
+		</figure>
+	</div>
+	
+	<h2> The Robot Competition </h2>
+	<h4> <i> University of British Columbia. Summer 2016 </i></h4>
+	<p>
+		Engineering Physics, my degree program, is famous at UBC for its <a href="Text Files/ENPH253 Rules.pdf" download>robot competition</a>, where students build robots for a 
+		<a href="https://www.youtube.com/watch?v=PrXCJz5u2yc" target="_blank">round-robin competition</a>. My team of four built a successful robot, winning two matches before its unlucky defeat. 
+		Check out our <a href="https://blogs.ubc.ca/enph253group1/" target="_blank">team website</a>.
+	</p>
+	
+	<p>I was responsible for mechanical design and construction, including conceptualizing the design and creating a comprehensive SolidWorks model. I also manufactured the robot with a laser 
+	cutter, waterjet machine, mill and lathe, and various hand tools. I was also involved in electrical and software design and implementation. The robot competition was a fun way to gain 
+	practical engineering experience, often learning design principles the hard way!
+	</p>
+	
+	<div style="float:right">
+		<figure>
+			<img src="Images/Ada.jpg" style="width:325px;height:250px">
+			<figcaption style="font-size:14px;align:center">Ada during a practice run near Vancouver</figcaption>
+		</figure>
+	</div>
+	
+	<h2> UBC Sailbot </h2>
+	<h4> <i>University of British Columbia. Fall 2014-Summer 2016</i> </h4>
+	<p>
+		I was a member of the <a href="https://ubcsailbot.org/" target="_blank">UBC Sailbot</a> team, which designed and built a robotic sailboat for the task of autonomously crossing the Atlantic Ocean. 
+		Named Ada, the boat set sail from Newfoundland in August of 2016, but unfortunately failed to reach its goal of Ireland.
+	</p>
+	
+	<p>
+	I worked on the mechanical design and construction team. My design work mostly concerned installation and control methods for Ada's sails. I also was heavily involved in construction, 
+	including a lot of woodwork! I will never forget those endless hours spent sanding her to a smooth surface before applying the outer carbon-fibre layer.
+	</p>
+</div>
+
+<br>
+
+<! My Skills >
+<button class="accordion"> My Skills </button>
+<div class="panel">
+	<div style="float:right">
+		<figure>
+			<img src="Images/Rasor Mount.jpg" style="width:300px;height:200px">
+			<figcaption style="font-size:14px"> From designs to results at MPSD</figcaption>
+		</figure>
+		<figure>
+			<img src="Images/Rasor Edge Image.jpg" style="width:300px;height:200px">
+		</figure>
+		<figure>
+			<img src="Images/Chess.jpg" style="width:300px;height:250px">
+			<figcaption style="font-size:14px"> A chess game I implemented in Java</figcaption>
+		</figure>
+		<figure>
+			<img src="Images/MPSD Circuit.jpg" style="width:400px;height:200px">
+			<figcaption style="font-size:14px">The completed, boxed circuit I built at MPSD</figcaption>
+		</figure>
+	</div>
+	<h2> Mechanical Design </h2>
+	<p>
+	Particularly developed during my time at MPSD and the ENPH253 robot competition, mechanical design is my strongest engineering discipline. I have extensive experience in 
+	computer-aided design (CAD) programs. In particular, I have worked a great deal with SolidWorks and Solid Edge, and other programs to a lesser degree. While specific controls 
+	change, all CAD programs share similar characteristics.
+	</p>
+	
+	<p>
+	I also enjoy learning about mechanical engineering by working with my hands. During the ENPH253 robot course, I learned the basics of machine tools including metal lathes 
+	and mills, and developed skills with waterjet and laser cutters. During my time with UBC Sailbot, I helped construct our boat, including woodwork and carbon-fibre installation, 
+	among other things. I also enjoy tinkering on my own, and am becoming quite handy!
+	</p>
+	
+	<p>
+	On top of practical skills, I have also taken a variety of mechanical engineering courses at UBC, including materials analysis and mechanical design classes. Applying the skills 
+	I learn in the classroom to practical work helps me knit all my mechanical knowledge together.
+	</p>
+	
+	<h2> Programming and Computer Engineering </h2>
+	<p>
+	Since high school, I have been a proficient programmer. My first technical job, at IBM, involved database interfacing and data processing, in a combination of 
+	<a href="https://en.wikipedia.org/wiki/SQL" target="_blank">SQL</a>, <a href="https://en.wikipedia.org/wiki/Groovy_(programming_language)" target="_blank">Groovy</a>, and other programming languages. 
+	I am also working as a teaching assistant in a programming course in <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">Java</a>.
+	</p>
+	<p>
+	 I believe that any modern engineer worth their salt should know their way around a computer, and be able to implement at least some simple coding. Personal programming 
+	 projects are things that I sometimes work on for fun, in my spare time. Check out my <a href="https://github.com/tschwartz190" target="_blank">Github</a> account for a quick example. For 
+	 another example, take a look around! I programmed this webpage from scratch, using <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a> and 
+	 <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">CSS</a>.
+	 </p>
+	 <p>
+	 What I've learned from my experience in coding is that, no matter how many programming languages you know, there will always be another you need to learn. That's why I try 
+	 to notice similarities between languages (and there are many!) to facilitate gaining a quick, working knowledge of a new language. In this way, I was able to become somewhat 
+	 proficient in SQL in one day while working at IBM, and get started on my project.
+	 </p>
+	 
+	 <h2>Electrical Skills</h2>
+	 <p>
+	 A good knowledge of circuitry had served me well both at university and in my work. One of my prouder moments working at MPSD was when I came up with the idea for a simple circuit 
+	 that was later able to synchronize our laser firing with other equipment. When I later implemented my idea and installed it, the experiment's efficiency was more than doubled!
+	 </p>
+	 <p>
+	 Other than working at MPSD, my current work at the Jones lab mostly involves building support circuitry. I have thus far built circuits intended to control piezo-motor motions, accouting 
+	 for micro-adjustments in the <a href="https://en.wikipedia.org/wiki/Optical_cavity" target="_blank">cavity</a> length of the lab's laser. It's fun to go to the lab and do a bit of circuit design as a study 
+	 break during the semester, working different parts of my brain and keeping up my electrical skills. I also participated in circuitry for my team's robot during the ENPH253 competition, 
+	 though my main contribution to the robot was mechanical design.
+	 </p>
+	 
+	 <p>
+	 So far during my university education, I have taken several circuit analysis courses, including both practical design and circuit element analysis classes. It is these courses which gave me 
+	 the practical knowledge that I use every day in the Jones lab, and helped me with my successes at MPSD.
+	 </p>
+	 
+	 <h2>Physics Research</h2>
+	 <p>
+	 While no undergraduate can really claim to have "experience" in physics research, I have worked extensively in research settings, both at UBC and for employment. Spending 4 months at the Max 
+	 Planck Institute for the Structure and Dynamics of Matter was far too short a time, but I learned a great deal about not just optics and phsyics, but also standard lab and research procedures. 
+	 It was that experience which convinced me to volunteer in a lab again once back at UBC. I hope to again work in a research environment, in particular studying astronomy or fluid mechanics.
+	 </p>
+	 
+	 <p>
+	 On top of my practical experience, I have also taken many physics classes, including electromagnetism, newtonian mechanics, quantum mechanics, and astronomy. Physics is a major part of my 
+	 degree, as the name Engineering Physics suggests, and it is one part that I particularly look forward to.
+	 </p>
+</div>
+
+<br>
+
+<! About Me>
+<button class="accordion"> About Me </button>
+<div class="panel">
+	
+	<div style="float:right">
+		<figure>
+			<img src="Images/Running.jpg" style="width:250px;height:280px">
+			<figcaption style="font-size:14px">Running for the UBC Thunderbirds</figcaption>
+		</figure>
+	</div>
+	
+	<p> Born in Toronto, I was raised mostly in the small town of New Paltz, NY, where I graduated from high school as the second in my class. 
+	I moved out to Vancouver, BC to earn my undergraduate degree in the fall of 2014. I am currently in my third year of 
+	the <a href="http://www.engphys.ubc.ca/" target="_blank">Engineering Physics</a> program at the <a href="http://www.ubc.ca/" target="_blank">University of British Columbia</a>.</p>
+	
+	<p>
+	The first picture on this page was taken in the middle of a hike up the Lions, a double peak near Vancouver. While certainly 
+	not prepared for that much snow (the hike was in June), I had a great time struggling up 60 degree snow banks in my shorts and a T-shirt. 
+	I've also been skydiving, cliff jumping, ziplining across a <a href="https://en.wikipedia.org/wiki/Cloud_forest" target="_blank">cloud forest</a>,
+	camel riding in the Sahara Desert, bargaining in a Chinese market (in Mandarin), and many others.
+	</p>
+	
+	<p>
+	I am also a former long-distance runner, competing for the UBC Thunderbirds in Cross-Country and Track and Field for two years. It is my ambition to, one day, 
+	complete an <a href="https://en.wikipedia.org/wiki/Ironman_Triathlon" target="_blank">Ironman triathlon</a>, consisting of a 2.4 mile swim, a 112 mile bike, and a 26.22 mile run 
+	(a marathon). And yes, you do it straight through.
+	</p>
+	
+	<br>
+	
+	<figure>
+		<img src="Images/Volubilis.jpg" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;">
+	</figure>
+	<figure>
+		<img src="Images/Chiang Kai-Shek Memorial.jpg" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;">
+	</figure>
+	
+	
+	<p style="clear:both; font-size:14px">Travels to Volubilis and the Chiang Kai-shek Memorial in Taipei</p>
+	
+	<p>
+	I love to travel. So far, I have visited 21 countries on 4 continents, including living in Xi'an, China for a year. While working at MPSD in Hamburg, Germany for 4 months, 
+	I managed to travel to a different city nearly every weekend. From big-ticket sites like Berlin, Prague, and Copenhagen to more unknown places like 
+	<a href="https://en.wikipedia.org/wiki/Sylt" target="_blank">Sylt</a>, <a href="https://en.wikipedia.org/wiki/Vy%C5%A1ehrad">Vysehrad</a>, and the 
+	<a href="http://daspanzermuseum.de/index.php?id=home" target="_blank">Deutches Panzermuseum</a> (German tank museum), I took advantage of every minute in Europe. While 
+	each place I go is unique, my favourite tourist experience was probably my visit to <a href="https://en.wikipedia.org/wiki/Volubilis" target="_blank">Volubilis</a>, 
+	a ruined Roman city located in modern-day Morocco. Since I am studying Classical and Roman History as a minor, it was amazing to see everything I had learned in the 
+	classroom brought to life.
+	</p>
+	
+</div>
+
+<br>
+
+<p class="lastUpdate" id="LM"></p>
+
+<! Accordion Buttons >
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+var time = document.lastModified;
+document.getElementById("LM").innerHTML = "Last modified: " + time;
+
+</script>
+</body>
+</html>

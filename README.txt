@@ -1,1 +1,1 @@
-Web page to portray my skills and interests
+Web page to showcase my skills and interests
